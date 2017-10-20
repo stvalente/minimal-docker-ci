@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 set -x
+test="test"
 expected="Hello World"
 actual=$(nc -v localhost 5000)
 echo "Expecting: $expected"
